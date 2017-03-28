@@ -248,3 +248,15 @@ section a:hover{
 #left-3{
 	display: none;
 }
+table {
+		border-collapse: collapse;
+		width: 50%;
+}
+td, th{
+	border: 3px solid #000066;
+	text-align: left;
+	padding: 8px;
+}
+tr:nth-cild(even){
+	background-color: #dddddd;
+}
