@@ -21,9 +21,9 @@
 	              <div class="row">
 	                <div class="col-lg-12">
 	                  <div class="input-group form">
-	                       <input type="text" class="form-control" placeholder="Search...">
+	                       
 	                       <span class="input-group-btn">
-	                         <button class="btn btn-primary" type="button">Search</button>
+	                         
 	                       </span>
 	                  </div>
 	                </div>
@@ -50,15 +50,18 @@
 		  	<div class="sidebar content-box" style="display: block;">
                 <ul class="nav">
                     <!-- Main menu -->
-                    <li><a href="new_th.php"><i class="fa fa-plus-square" aria-hidden="true"></i> New TH</a></li>
-                    <li class="current"><a href="new_en.php"><i class="fa fa-plus-square" aria-hidden="true"></i> New EN</a></li>
-                    <li><a href="calendar.html"><i class="fa fa-pencil-square-o" aria-hidden="true"></i> Edit</a></li>
+                    <li><a href="new_th.php"><i class="fa fa-plus-square" aria-hidden="true"></i> News TH</a></li>
+                    <li class="current"><a href="new_en.php"><i class="fa fa-plus-square" aria-hidden="true"></i> News EN</a></li>
+                     <li><a href="event_th.php"><i class="fa fa-plus-square" aria-hidden="true"></i> Event TH</a></li>
+ 					<li><a href="event_en.php"><i class="fa fa-plus-square" aria-hidden="true"></i> Event EN</a></li>
+ 					<li><a href="per_th.php"><i class="fa fa-plus-square" aria-hidden="true"></i> Per TH</a></li>
+ 					<li><a href="per_en.php"><i class="fa fa-plus-square" aria-hidden="true"></i> Per EN</a></li>
                 </ul>
              </div>
 		  </div>
 		  <div class="col-md-10">
 			<div id="frm">
-			<center><h1>New EN</h1></center>
+			<center><h1>News EN</h1></center>
 			<form action="process_new_en.php" method="POST" enctype="multipart/form-data">
 				<div class="col-md-12">
 					<div class="col-md-2"></div>
