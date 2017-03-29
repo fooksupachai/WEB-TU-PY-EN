@@ -27,7 +27,7 @@
 						 <div class="dropdown-content">
 						 <a href="history.html">ประวัติ</a>
 						<a href="map.html">แผนที่</a>
-						<a href="personnel.html">บุคลากร</a>
+						<a href="per.php">บุคลากร</a>
 						<a href="about.html">เกี่ยวกับ</a>
 						</div></li>
 					

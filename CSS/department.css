@@ -138,6 +138,11 @@ li.dropdown {
 }
 
 .image_back1{
+	background:url(../img/auto.jpg);
+	background-size: cover; 
+	
+}
+.image_back2{
 	background:url(../img/star.jpg);
 	background-size: cover; 
 	
@@ -247,16 +252,4 @@ section a:hover{
 }
 #left-3{
 	display: none;
-}
-table {
-		border-collapse: collapse;
-		width: 50%;
-}
-td, th{
-	border: 3px solid #000066;
-	text-align: left;
-	padding: 8px;
-}
-tr:nth-cild(even){
-	background-color: #dddddd;
 }

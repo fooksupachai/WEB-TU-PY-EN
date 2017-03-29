@@ -28,11 +28,15 @@
 						 <div class="dropdown-content">
 						 <a href="history.html">History of University</a>
 						<a href="map.html">Map</a>
-						<a href="personnel.html">Personnel</a>
+						<a href="per.php">Personnel</a>
 						<a href="about.html">About University</a>
 						</div></li>
 					<li ><a href = "calendar.php" >calendar</a>
-						<li ><a href = "department.html" >Department</a>
+						<li class="dropdown"><a href = "#" class="dropbtn">Department</a>
+						 <div class="dropdown-content">
+						 <a href="soft.html">SOFTWARE ENGINEERING</a>
+						<a href="auto.html">AUTOMOTIVE ENGINEERING</a>
+						</div></li>
 					<li><a href = "life.html">life</a></li>
 					
 					<li><a href = "../th/index.php" ><img src="../img/tf.png" alt="thai" height="20px" width="35px"></a></li>
