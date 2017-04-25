@@ -1,3 +1,6 @@
+<?php
+	include 'databaseViewTH.php';
+?>
 <!Doctype html>
 <html>
 <head>
@@ -62,33 +65,8 @@
 	
 	<section >
 	<?php
-	$servername = "localhost";
-	$dbUsername = "root";
-	$dbPassword = "";
-	$dbname = "db_tu_py";
-
-	// Create connection
-	$conn = new mysqli($servername, $dbUsername, $dbPassword, $dbname);
-	// Check connection
-	if ($conn->connect_error) {
-	    die("Connection failed: " . $conn->connect_error);
-	} 
-	$sql = "SELECT text, name_img FROM news_th";
-	$result = $conn->query($sql);
-	$valueCheck = 0;
-	if ($result->num_rows > 0) {
-	    while($row = $result->fetch_assoc()) {
-	    	echo '<div  style="margin:50px;" >
-	    	<div ><img src="../uploads/news_th/'.$row["name_img"].'" width="200px" height="200px" id="l1"><br></div>
-	    	<div  style="color:white;margin-top:10px;font-size:20px;" >
-	    	'.$row["text"].'
-	    	</div>
-	    	</div><br><br><br><br>';	    
-	    }	
-	} else {
-	    echo "No result in Database";
-	}
-	$conn->close();
+		$objView = new databaseViewTH;
+		$objView->viewNewsTH();
 	?>	<br><br><br>
 	</section>
 	

@@ -1,3 +1,6 @@
+<?php
+	include 'databaseViewTH.php';
+?>
 <!Doctype html>
 <html>
 <head>
@@ -48,31 +51,8 @@
     </thead>
    	<tbody>
 		<?php
-	$servername = "localhost";
-	$dbUsername = "root";
-	$dbPassword = "";
-	$dbname = "db_tu_py";
-
-	// Create connection
-	$conn = new mysqli($servername, $dbUsername, $dbPassword, $dbname);
-	// Check connection
-	if ($conn->connect_error) {
-	    die("Connection failed: " . $conn->connect_error);
-	} 
-	$sql = "SELECT date, text FROM event_th";
-	$result = $conn->query($sql);
-	$valueCheck = 0;
-	if ($result->num_rows > 0) {
-	    while($row = $result->fetch_assoc()) {
-			echo "<tr>
-				<td>".$row["date"]."</td>
-				<td>".$row["text"]."</td>
-			</tr>";	    
-	    }	
-	} else {
-	    echo "No result in Database";
-	}
-	$conn->close();
+		$objView = new databaseViewTH;
+		$objView->viewEventTH();
 	?>
 	</tbody>
 	</table>

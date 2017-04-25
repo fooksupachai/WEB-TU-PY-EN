@@ -1,7 +1,7 @@
 <?php
 	$servername = "localhost";
 	$dbUsername = "root";
-	$dbPassword = "";
+	$dbPassword = "admin";
 	$dbname = "db_tu_py";
 
 	// Create connection
