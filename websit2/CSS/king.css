@@ -1,0 +1,50 @@
+*{
+	margin:0;
+}
+
+body{
+	background-color:black;
+}
+#king{
+	width:100%;
+	
+}
+h3{
+	text-align:center;
+	color:white;
+	font-size:33px;
+	font-family: 'Trirong', serif;
+}
+#eng{
+	text-align:center;
+	color:white;
+	font-size:33px;
+	font-family: 'Lora', serif;
+}
+a{
+	text-decoration:none;
+	color:white;
+}
+a:hover{
+	color:yellow;
+	text-decoration:none;
+}
+.black-ribbon {   position: fixed;   z-index: 9999;   width: 70px; 
+}
+
+
+@media only all and (min-width: 768px) { .black-ribbon { width: auto; } }
+
+.stick-left { left: 0; }
+.stick-right { right: 0; }
+.stick-top { top: 0; }
+.stick-bottom { bottom: 0; }
+
+@media screen and (max-width : 760px){
+h3{
+	font-size:20px;
+}	
+#eng{
+	font-size:20px;
+}
+}
