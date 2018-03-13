@@ -89,7 +89,7 @@
 	    echo "No result in Database";
 	}
 	$conn->close();
-	?>	<br><br><br>
+	?>	<br>
 	</section>
 	
 	<div style="text-align:center">
