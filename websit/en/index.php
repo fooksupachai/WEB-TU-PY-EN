@@ -47,7 +47,7 @@
 		</div>
 	</header>
 	<section class="image_back1">
-		<br>
+	
 		
 			<h1>Faculty of Engineering</h1>
 		
